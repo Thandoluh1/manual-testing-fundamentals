@@ -1,0 +1,6 @@
+Test Case ID,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_CHK_001,Add product to cart,"Select product, Click Add to Cart",Product added to cart,As expected,Pass
+TC_CHK_002,Update cart quantity,"Increase product quantity",Cart updated correctly,As expected,Pass
+TC_CHK_003,Proceed to checkout,"Click Checkout button",Checkout page displayed,As expected,Pass
+TC_CHK_004,Invalid payment details,"Enter invalid card details, Submit payment",Error message displayed,As expected,Pass
+TC_CHK_005,Successful order,"Enter valid payment details, Submit payment",Order confirmation displayed,As expected,Pass
