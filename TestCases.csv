@@ -1,0 +1,4 @@
+Test Case ID,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_LOGIN_001,Valid login,"Enter valid username and password, Click Login",User is logged in successfully,As expected,Pass
+TC_LOGIN_002,Invalid password,"Enter valid username and invalid password, Click Login",Error message displayed,As expected,Pass
+TC_LOGIN_003,Empty fields,"Leave username and password empty, Click Login",Validation message shown,As expected,Pass
