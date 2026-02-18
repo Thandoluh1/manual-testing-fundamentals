@@ -1,0 +1,5 @@
+Test Case ID,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_CF_001,Valid form submission,"Enter valid data in all fields, Click Submit",Success message displayed,As expected,Pass
+TC_CF_002,Empty mandatory fields,"Leave required fields empty, Click Submit",Validation error displayed,As expected,Pass
+TC_CF_003,Invalid email format,"Enter invalid email address, Click Submit",Email format error displayed,As expected,Pass
+TC_CF_004,Message field character limit,"Enter message exceeding limit, Click Submit",Validation error shown,As expected,Pass
